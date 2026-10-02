@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CORS Test</title>
+</head>
+<body>
+    <h1>Testing CORS</h1>
+    <script>
+        fetch('http://localhost:3000/api/expenses')
+            .then(res => res.json())
+            .then(data => console.log(data))
+            .catch(err => console.error('Error:', err));
+    </script>
+</body>
+</html>

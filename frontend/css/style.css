@@ -1,0 +1,167 @@
+/* Custom Pink & Pastel Aesthetic Theme */
+:root {
+  --primary-pink: #ffb6c1;
+  --dark-pink: #ff8da1;
+  --bg-lavender: #faf5ff;
+  --card-bg: #ffffff;
+  --text-dark: #5a4b56;
+  --border-pink: #f3d5dc;
+}
+
+body {
+  background-color: var(--bg-lavender);
+  color: var(--text-dark);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(135deg, #ffb6c1 0%, #ffa07a 100%) !important;
+  box-shadow: 0 4px 15px rgba(255, 182, 193, 0.4);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: #fff !important;
+  letter-spacing: 0.5px;
+}
+
+/* Cards Styling */
+.card {
+  border: 1px solid var(--border-pink);
+  border-radius: 18px !important;
+  box-shadow: 0 8px 20px rgba(220, 180, 200, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(220, 180, 200, 0.25);
+}
+
+.card-header {
+  border-top-left-radius: 18px !important;
+  border-top-right-radius: 18px !important;
+  border-bottom: 1px solid #f8e1e7;
+  color: #6c4f62;
+  font-weight: 600;
+}
+
+/* Custom Summary Cards Colors */
+.bg-pastel-pink {
+  background: linear-gradient(135deg, #ffb7b2 0%, #ffdac1 100%) !important;
+  color: #5c3a37 !important;
+}
+
+.bg-pastel-purple {
+  background: linear-gradient(135deg, #e2f0cb 0%, #b5ead7 100%) !important;
+  color: #2e4d3f !important;
+}
+
+.bg-pastel-peach {
+  background: linear-gradient(135deg, #c7ceea 0%, #e2f0cb 100%) !important;
+  color: #3b4259 !important;
+}
+
+/* Buttons Styling */
+.btn-primary {
+  background-color: var(--dark-pink) !important;
+  border-color: var(--dark-pink) !important;
+  border-radius: 12px;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(255, 141, 161, 0.3);
+}
+
+.btn-primary:hover {
+  background-color: #f7728b !important;
+  border-color: #f7728b !important;
+}
+
+.btn-outline-primary {
+  color: var(--dark-pink) !important;
+  border-color: var(--dark-pink) !important;
+  border-radius: 10px;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--dark-pink) !important;
+  color: white !important;
+}
+
+.btn-outline-danger {
+  color: #ff6b81 !important;
+  border-color: #ff8fa3 !important;
+  border-radius: 10px;
+}
+
+.btn-outline-danger:hover {
+  background-color: #ff6b81 !important;
+  color: white !important;
+}
+
+/* Form Inputs & Selects */
+.form-control, .form-select {
+  border-radius: 12px;
+  border: 1px solid var(--border-pink);
+  padding: 0.6rem 0.9rem;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: var(--dark-pink);
+  box-shadow: 0 0 0 0.25rem rgba(255, 141, 161, 0.25);
+}
+
+/* Table Styling */
+.table {
+  color: var(--text-dark);
+}
+
+.table-light {
+  background-color: #fff0f3 !important;
+  color: #725164 !important;
+}
+
+/* Custom Badges for Categories */
+.badge-food {
+  background-color: #ffb7b2 !important;
+  color: #632d28 !important;
+}
+
+.badge-transport {
+  background-color: #c7ceea !important;
+  color: #2f3651 !important;
+}
+
+.badge-bills {
+  background-color: #ff9aa2 !important;
+  color: #5c1e23 !important;
+}
+
+.badge-entertainment {
+  background-color: #e2f0cb !important;
+  color: #38521d !important;
+}
+
+.badge-other {
+  background-color: #b5ead7 !important;
+  color: #1f4a3b !important;
+}
+
+.badge {
+  padding: 0.5em 0.8em;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+/* Modal Styling */
+.modal-content {
+  border-radius: 20px;
+  border: 1px solid var(--border-pink);
+}
+
+.modal-header {
+  border-bottom: 1px solid #f8e1e7;
+  background-color: #fff0f3;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
